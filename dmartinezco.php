@@ -11,6 +11,11 @@ Domain Path: /dmartinezco
 */
 
 /**
+ * WP REST CORS
+ */
+include 'WP-REST-Allow-All-CORS-1.0.0/plugin.php';
+
+/**
  * Add menus to REST API
  */
 
@@ -27,4 +32,5 @@ add_action( 'rest_api_init', function () {
   ) );
 } );
 
- ?>
+
+?>
